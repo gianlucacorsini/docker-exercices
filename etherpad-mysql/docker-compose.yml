@@ -21,7 +21,7 @@ services:
     mysql:
         # use the official mariadb image from the docker hub
         # https://hub.docker.com/_/mariadb
-        image: mariadb:10
+        image: mariadb:latest
 
         # TODO: environment variables
         environment:
